@@ -1,0 +1,107 @@
+html, body, div, span,applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing:border-box;
+}
+
+#yes{
+	background: maroon;
+	color: white;
+	text-shadow: 1px 1px #1b1b1b;
+	}
+.nav-wrapper{
+	width: 100%;
+	height: 12vh;
+	background-color: white;
+	
+}
+#logo{
+	position: absolute;
+	left: 10%;
+	top: 1vh;
+	height: 70px;
+}
+.heropage{
+	width: 100%;
+	height: 78vh;
+		background-image: url(../images/wine-template-background.jpg);
+	
+	padding-bottom: 10vh;
+	width: 100%; 		
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	text-align: center;
+	font-family: 'Lora', serif;
+	
+	
+}
+#subscribe{
+	font-size: 20px;
+	padding: .25em;
+	
+}
+#subscribe-button{
+	font-size: 35px;
+}
+.heropage h2{
+	
+	font-size: 45px;
+	color: lightgrey;
+
+text-shadow: 3px 3px black;
+}
+.tagline{
+	padding-top: 15vh;
+	font-size: 60px;
+	color: white;
+
+text-shadow: 3px 3px black;
+	
+	
+	
+}
+
+.footer{
+	width: 100%;
+	height: 10vh;
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+.footer p{
+padding-top: 5vh;
+
+}
+@media only screen and (min-width: 1150px) {
+	.tagline{
+	font-size: 100px;
+	
+	}
+	
+	#logo{
+	position: absolute;
+	left: 10%;
+	top: 1vh;
+	height: 80px;
+}
+	
+	
+}
